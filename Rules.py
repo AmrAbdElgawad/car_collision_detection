@@ -51,7 +51,7 @@ def calc_overlaped_cars_angles(trajectories,overlaped):
       theta=0
 
     #check for threshold of angle
-    if theta*(180/np.pi) > 0 & theta*(180/np.pi)<180:
+    if theta*(180/np.pi) > 0 and theta*(180/np.pi)<180:
       return True
     else:
       return False
